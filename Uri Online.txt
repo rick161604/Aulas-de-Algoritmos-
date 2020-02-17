@@ -1,0 +1,88 @@
+a= int (input())
+b= int (input())
+
+soma = a + b 
+print ("X = {}".format (soma))
+
+c = int (input())
+d = int (input())
+
+divi = c * d
+print ("Y = {}".format (divi))
+
+e = int (input())
+f = int (input())
+
+multi = e / f
+print ("M= = {}".format (multi))
+
+h = int (input())
+i = int (input())
+
+subtra = h - i
+print ("S = {}".format (subtra))
+
+-----------------------------------------------
+
+area=0
+n = 3.14159
+raio = float(input())
+area = n*raio*raio
+print("A=%.4F" %area)
+
+--------------------------------------------------
+
+nota1 = float(input())
+nota2 = float(input())
+
+media = (((nota1 * 3.5) + (nota2 * 7.5)) / 11)
+
+print("MEDIA = %0.5f" %media)
+
+--------------------------------------------------
+
+nota1 = float(input())
+nota2 = float(input())
+nota3 = float(input())
+
+
+media = (((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10)
+
+print("MEDIA = %0.1f" %media)
+
+------------------------------------------------------
+
+linha1 = input().split(" ")
+linha2 = input().split(" ")
+
+cod1, qtde1, valor1 = linha1
+cod2, qtde2, valor2 = linha2
+
+total = (int(qtde1) * float(valor1)) + (int(qtde2) * float(valor2))
+
+print("VALOR A PAGAR: R$ %0.2f" %total)
+
+----------------------------------------------------------
+
+raio = int(input())
+
+pi = 3.14159
+
+volume = float(4.0 * pi * (raio* raio * raio) / 3)
+
+print("VOLUME = %0.3f" %volume)
+
+-----------------------------------------------------
+
+valor = input().split(" ")
+
+a, b, c = valor
+pi = 3.14159
+
+triangulo = (float(a) * (float(c)))/2
+circulo = pi * (float(c)* float(c))
+trapezio = float(c) *(float(a) + float(b)) / 2
+quadrado = float(b) * float(b)
+retangulo = (float(a) * float(b))
+
+print("TRIANGULO: %0.3f\nCIRCULO: %0.3f\nTRAPEZIO: %0.3f\nQUADRADO: %0.3f\nRETANGULO: %0.3f" % (triangulo, circulo, trapezio, quadrado, retangulo))
