@@ -86,3 +86,18 @@ quadrado = float(b) * float(b)
 retangulo = (float(a) * float(b))
 
 print("TRIANGULO: %0.3f\nCIRCULO: %0.3f\nTRAPEZIO: %0.3f\nQUADRADO: %0.3f\nRETANGULO: %0.3f" % (triangulo, circulo, trapezio, quadrado, retangulo))
+
+----------------------------------------------------
+import math
+
+linha1 = input().split(" ")
+linha2 = input().split(" ")
+
+x1,y1 = linha1
+x2,y2 = linha2
+
+distancia = math.sqrt(((float(x2) - float(x1))*(float(x2) - float(x1))) + ((float(y2)-float(y1)) *(float(y2)-float(y1))))
+
+print("%0.4f" %distancia)
+
+--------------------------------------------------------
