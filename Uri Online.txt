@@ -144,6 +144,7 @@ print('{} nota(s) de R$ 1,00'.format(n1))
 -----------------------------------------------------
 n = float(input())
 print(n)
+
 n100 = n // 100
 n = n - n100*100
 
@@ -161,6 +162,15 @@ n = n - n5*5
 
 n2 = n // 2
 n = n - n2*2
+
+print ("NOTAS:")
+
+print('{} nota(s) de R$ 100,00'.format(n100))
+print('{} nota(s) de R$ 50,00'.format(n50))
+print('{} nota(s) de R$ 20,00'.format(n20))
+print('{} nota(s) de R$ 10,00'.format(n10))
+print('{} nota(s) de R$ 5,00'.format(n5))
+print('{} nota(s) de R$ 2,00'.format(n2))
 
 m1 = n // 1
 n = n - m1*1
@@ -180,16 +190,7 @@ n = n - m05 * 0.05
 m01 = n // 0.01
 n = n - m01 * 0.01
 
-
-print ("NOTAS :")
-print('{} nota(s) de R$ 100,00'.format(n100))
-print('{} nota(s) de R$ 50,00'.format(n50))
-print('{} nota(s) de R$ 20,00'.format(n20))
-print('{} nota(s) de R$ 10,00'.format(n10))
-print('{} nota(s) de R$ 5,00'.format(n5))
-print('{} nota(s) de R$ 2,00'.format(n2))
-
-print ("MOEDAS :")
+print ("MOEDAS:")
 
 print('{} moeda(s) de R$ 1,00'.format(m1))
 print('{} moeda(s) de R$ 0,50'.format(m50))
