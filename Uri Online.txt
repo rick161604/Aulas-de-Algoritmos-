@@ -200,3 +200,19 @@ print('{} moeda(s) de R$ 0,05'.format(m05))
 print('{} moeda(s) de R$ 0,01'.format(m01))
 
 --------------------------------------------------
+n = int(input())
+print(n)
+n1 = n // 365
+n = n - n1*365
+
+n30 = n // 30
+n = n - n30*30
+
+n24 = n // 1
+n = n - n24*1
+
+print('{} ano(s)'.format(n1))
+print('{} mes(es)'.format(n30))
+print('{} dia(s)'.format(n24))
+
+--------------------------------------------------
