@@ -253,3 +253,7 @@ if a == '4':
 if a == '5':
  print('Total: R$ {:.2f}'.format(1.50*float(b)))
  -------------------------------------------------------
+x = int(input())
+mes = ['','January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+print(mes[x]) 
+-------------------------------------------------------------------------------------------------------------------------------
